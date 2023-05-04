@@ -48,6 +48,7 @@ window.onload = function() {
       cell.textContent = "";
     });
     document.querySelectorAll("input[type='text']").forEach(input => input.value = "");
+    gameEnd = false; // Establece gameEnd en falso al reiniciar el juego
   });
   
 
@@ -91,7 +92,7 @@ window.onload = function() {
       alert(`${winnerName} es el ganador!`);
       return true;
     } else {
-     return false;
+     return
     }
   }
   
